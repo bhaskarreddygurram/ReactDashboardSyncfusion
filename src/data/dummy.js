@@ -494,6 +494,9 @@ export const links = [
       {
         name: 'customers',
         icon: <RiContactsLine />,
+      },{
+        name: 'AGGrid',
+        icon: <RiContactsLine />,
       },
     ],
   },

@@ -1,19 +1,8 @@
-//import React from 'react'
-
-/* const AGGrid = () => {
-  return (
-    <div>AgGrid</div>
-  )
-}
-
-export default AGGrid; */
-
-
-
 import React, { useState } from 'react';
 import { render } from 'react-dom';
 import { AgGridReact } from 'ag-grid-react';
 import { Header } from '../components';
+import { aggridData, agGrid } from '../data/dummy';
 
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
@@ -39,8 +28,8 @@ const AGGrid = () => {
            <Header category="Page" title="Customers" />
            <div className="ag-theme-alpine" style={{ height: 400 }}>
                <AgGridReact
-                   rowData={rowData}
-                   columnDefs={columnDefs}>
+                   rowData={aggridData}
+                   columnDefs={agGrid}>
                </AgGridReact>
            </div>
        </div>

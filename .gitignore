@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/public/ext-modern-runtime
 /.pnp
 .pnp.js
 

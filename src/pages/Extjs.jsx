@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 
 const Extjs = () => {
   return (
@@ -6,18 +6,12 @@ const Extjs = () => {
   )
 }
 
-export default Extjs; */
+export default Extjs;
 
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import { ExtGrid, ExtColumn, Ext } from '@sencha/ext-react-modern';
 
 import { CompanyData, CompanyModel } from '../data/dummy';
-//import '../CompanyData';
-//import model from '../CompanyModel';
-
-/*Ext.require([
-  'Ext.grid.plugin.HeaderReorder'
-]);*/
 
 export default class BasicExtGridExample extends Component {
 
@@ -27,10 +21,7 @@ export default class BasicExtGridExample extends Component {
     autoLoad: true,
     pageSize: 0,
     data: CompanyData, 
-    /*proxy: {
-      type: 'ajax',
-      url: '/KitchenSink/Companys'
-    }*/
+   
   };
 
   render() {
@@ -54,10 +45,4 @@ export default class BasicExtGridExample extends Component {
     )
   }
 
-  /*renderSign = (format, value) => (
-    <span style={{ color: value > 0 ? 'green' : value < 0 ? 'red' : ''}}>
-      {Ext.util.Format.number(value, format)}
-    </span>
-  )*/
-
-}
+} */

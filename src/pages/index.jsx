@@ -16,3 +16,4 @@ export { default as Pyramid } from './Charts/Pyramid';
 export { default as Stacked } from './Charts/Stacked';
 export { default as AGGrid } from './AGGrid';
 export { default as Extjs } from './Extjs';
+export { default as Handsontable } from './Handsontable';

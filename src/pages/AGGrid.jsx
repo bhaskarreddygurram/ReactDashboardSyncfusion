@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { AgGridReact } from 'ag-grid-react';
 import { Header } from '../components';
 import { aggridData, agGrid } from '../data/dummy';
+import { Tabs } from '../components/Tabs';
 
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
@@ -33,6 +34,9 @@ const AGGrid = () => {
                </AgGridReact>
            </div>
        </div>
+       /*<div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
+            <Tabs />
+       </div>*/
    );
 };
 export default AGGrid;

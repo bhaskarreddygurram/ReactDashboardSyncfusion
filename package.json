@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@handsontable/react": "^12.1.2",
     "@sencha/ext-modern-runtime": "^7.5.0",
     "@sencha/ext-react-modern": "^7.5.0",
     "@syncfusion/ej2": "^19.4.48",
@@ -17,6 +18,8 @@
     "@syncfusion/ej2-react-schedule": "^19.4.50",
     "ag-grid-community": "^28.0.2",
     "ag-grid-react": "^28.0.0",
+    "handsontable": "^12.1.2",
+    "handsontable-helpers": "^2.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
